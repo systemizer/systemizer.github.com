@@ -1,0 +1,107 @@
+/* Override some defaults */
+
+@font-face
+{
+font-family: myFirstFont;
+src: url('/assets/themes/systemizer/css/Chunkfive.otf');
+}
+
+html, body {
+    background: #333; /* Old browsers */
+    background: -moz-linear-gradient(top,  #333 0%, #555 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333), color-stop(100%,#555)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #333 0%,#555 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #333 0%,#555 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #333 0%,#555 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #333 0%,#555 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#555',GradientType=0 ); /* IE6-9 */
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+  background-color: #333;
+  font-family: myFirstFont
+}
+.navbar {
+  margin-bottom: 0;
+}
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* Page header tweaks */
+.page-header {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#ededed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+
+.page-header h1 {
+  font-size:500%;
+  line-height:normal;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	line-height:28px;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#005F6B;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+	
+
+.align-right {text-align:right;}
+.post-content p {font-weight:600; font-size:140%;letter-spacing:1.2px;line-height:normal;}
+.post-content a {color:#55C;}
+.post-content a:hover {text-decoration:none;font-weight:bolder;}
+.post-content p.large-letter:first-letter {font-size:200%;}
