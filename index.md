@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: systemizer blog
+tagline: Explore. Discover. Reinvent. Post.
 ---
 {% include JB/setup %}
 
