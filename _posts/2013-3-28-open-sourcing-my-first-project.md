@@ -19,8 +19,7 @@ tags: []
 <hr />
 <h2>The Project</h2>
 <hr />
-<p>It's complete! It's tested! It even has documentation and a tutorial video! Within the month, I will be presenting the tool at a meetup to developers who have heard and are anxious about the project. In addition, the tool has been designed generic enough such that it will be easy for others to contribute.</p>
-<br>
+<p>It's complete! It's tested! It even has documentation and a tutorial video! I will also be presenting the tool at a meetup to developers who have heard and are anxious about the project. It will be officially open-sourced this coming Monday.</p>
 <p>This is an exciting endeavor for me. I code all the time, but I have never emersed myself in a community project; I hope this new project will fulfill that void and become something bigger than any of my previous projects.</p>
 <hr />
 <p>I will plan a separate post for the release of this project. Stay tuned.</p>
