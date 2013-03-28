@@ -114,3 +114,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 ul.nostyle {list-style:none;}
 .sidenav {border-left:solid thick #333;padding-left:15px;}
 .sidenav ul li {margin-top:5px;}
+ul.posts li {padding-bottom:50px;margin-bottom:50px;border-bottom:solid thin #333;}

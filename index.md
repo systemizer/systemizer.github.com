@@ -9,7 +9,7 @@ tagline: Explore. Discover. Reinvent. Post.
 <div class="span7">
   <h3>Recent Posts</h3>
   <hr />
-  <ul class="nostyle align-right">	
+  <ul class="nostyle posts align-right">	
     {% for post in site.posts %}
       <li>
 	  <h2><a href="{{ post.url }}">{{ post.title }}</a>
@@ -22,13 +22,13 @@ tagline: Explore. Discover. Reinvent. Post.
   </ul>
 </div>
 <div class="span4 sidenav">
-     <h3 class="align-left">Other Relevant Links</h3>
+     <h3 class="align-left"><i class="icon-asterisk">&nbsp;</i> Relevant Links</h3>
      <ul class="nostyle align-left">
        <li><a href="http://systemizer.me">Personal Website</a></li>
        <li><a href="http://soundcloud.com/systemizer">My Music</a></li>
        <li><a href="http://github.com/systemizer">My Code</a></li>
      </ul>
-     <h3 class="align-right">About Me</h3>
+     <h3 class="align-right">About Me <i class="icon-user">&nbsp;</i></h3>
      <ul class="nostyle align-right">
      	 <li>Developer @ MoPub</li>
 	 <li>Marathon Runner</li>
@@ -36,10 +36,10 @@ tagline: Explore. Discover. Reinvent. Post.
 	 <li>EDM Fan</li>
 	 <li>MIT '12</li>
      </ul>
-     <h3 class="align-left">Contact Me</h3>
+     <h3 class="align-left"><i class="icon-envelope">&nbsp;</i> Contact Me</h3>
      <ul class="nostyle">
-       <li><p>I love giving advice and helping others complete their own side projects.</p></li>
-       <li><p>Send me a message at <a href="mailto:rob@systemizer.me">rob@systemizer.me</a> or tweet <a href="https://twitter.com/systemizer">@systemizer</a></p></li>
+       <li>I love giving advice and helping others complete their own side projects.</li>
+       <li>Send me a message at <a href="mailto:rob@systemizer.me">rob@systemizer.me</a> or tweet <a href="https://twitter.com/systemizer">@systemizer</a></li>
      </ul>
 </div>
 </div>
